@@ -1,0 +1,50 @@
+img{
+    display: block;
+    width: 100px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+#search{
+    display: block;
+    width: 50%;
+}
+
+
+.prod{
+    grid-area: p;
+}
+.genius{
+    grid-area: g;
+}
+
+.oferta{
+    grid-area: o;
+}
+
+.card{
+    grid-area: c;
+}
+
+.resigilate{
+    grid-area: r;
+}
+.emag{
+    grid-area: e;
+}
+
+.help{
+    grid-area: h;
+}
+
+
+.pdoduse{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr 1fr;
+    grid-template-areas: "p g o c r e h"; 
+}
