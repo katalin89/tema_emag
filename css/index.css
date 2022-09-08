@@ -43,8 +43,43 @@ header{
 }
 
 
-.pdoduse{
+.produse{
+    border: 2px solid red;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 8fr 1fr 1fr;
     grid-template-areas: "p g o c r e h"; 
+}
+
+.televizor{
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+
+.tv{
+    display: flex;
+    flex-direction: column;
+}
+.suport{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    width:20%;
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+}
+
+.gen{
+    display: flex;
+    flex-direction: row;
+}
+
+.poz1{
+    display: block;
+    width: 3%;
+    height: 8%;
 }
