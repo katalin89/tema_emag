@@ -83,3 +83,74 @@ header{
     width: 3%;
     height: 8%;
 }
+
+.produsele{
+    display: flex;
+    flex-direction: row;
+}
+.livrat{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-mare{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.adauga{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.star{
+    grid-area: st;
+}
+
+.samsung{
+    grid-area:sam
+}
+
+.Lg{
+    grid-area: lg;
+}
+
+.Philips{
+    grid-area: p;
+}
+
+.horizont{
+    grid-area: h;
+}
+.Nei{
+    grid-area: n;
+}
+
+.walton{
+    grid-area: w;
+}
+
+.welligton{
+    grid-area: wll;
+}
+
+.container2{
+    border: 2px solid red;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;
+  
+    grid-template-areas: "st sam lg p"
+                          "h n w wll";
+}
